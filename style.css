@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #ffffff;
+  text-align: center;
+}
+
+#game-container {
+  margin: 20px auto;
+  width: 400px;
+}
+
+canvas {
+  display: block;
+  margin: 20px auto;
+  border: 1px solid #ffffff;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
