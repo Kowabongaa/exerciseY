@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="game-container">
+    <h1>Snake Game</h1>
+    <p>
+      Welcome to the Snake Game! The objective of the game is to control the snake using the arrow keys
+      and collect as much food as possible. Every time the snake eats the food, it grows longer, and
+      your score increases. Be careful not to run into the walls or the snake's own body, or the game
+      will end!
+    </p>
+    <p>How to Play:</p>
+    <ul>
+      <li>Use the <strong>Arrow Keys</strong> to control the snake's direction.</li>
+      <li>Eat the red squares (food) to grow and increase your score.</li>
+      <li>Avoid crashing into the walls or yourself.</li>
+    </ul>
+    <div id="controls">
+      <button onclick="startGame()">Start Game</button>
+    </div>
+    <div id="game"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
